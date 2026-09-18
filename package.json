@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:gemini": "node scripts/test-gemini.mjs",
+    "test:api": "node scripts/test-api.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "mysql2": "^3.24.4",
     "next": "16.3.5",
+    "openai": "^7.18.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
